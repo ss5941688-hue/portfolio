@@ -1,0 +1,84 @@
+/* 1. Element Selector: Targets all <body> and <h1> tags */
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    color: #333333;
+}
+
+h1 {
+    color: #1a5276;
+    text-align: left;
+    font-size:x-large;
+}
+
+h2{
+    font-size: small;
+    font-weight:100;
+}
+
+.nav{
+    text-align: center;
+}
+
+
+
+footer{
+    font-size:small;
+}
+/* 2. Class Selector: Targets elements with class="intro-text" (starts with a dot) */
+.intro-text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Handle basic element styling */
+/* ---------------------------- */
+body {
+  font:
+    1em/150% "Helvetica",
+    "Arial",
+    sans-serif;
+  padding: 1em;
+  margin: 0 auto;
+  max-width: 33em;
+}
+
+@media (width >= 70em) {
+  /* Increase the global font size on larger screens or windows
+     for better readability */
+  body {
+    font-size: 130%;
+  }
+}
+
+/* Handle specific elements nested in the DOM */
+div p,
+#id::first-line {
+  background-color: red;
+  border-radius: 3px;
+}
+
+div p {
+  margin: 0;
+  padding: 1em;
+}
+
+div p + p {
+  padding-top: 0;
+}
+/*buttons styling*/
+
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
