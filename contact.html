@@ -1,12 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-     <link rel="stylesheet" href="stylesheet.css">
+
+    <meta
+        name="description"
+        content="Contact Sarah Smith, a UX/UI design student at DePaul University."
+    >
+
+    <title>Contact | Sarah Smith</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body>
-    
+
+    <header class="site-header">
+        <div class="header-content">
+
+            <div class="brand">
+                <h1>Sarah Smith</h1>
+                <p>UX/UI • Psych • CS Student</p>
+            </div>
+
+            <nav class="nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About</a>
+                <a href="contact.html" class="active" aria-current="page">
+                    Contact
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="contact-hero">
+
+            <div class="contact-heading">
+                <p class="eyebrow">GET IN TOUCH</p>
+
+                <h2>Let’s connect.</h2>
+
+                <p class="contact-intro">
+                    I’m open to internships, creative collaborations, and
+                    opportunities to grow as a UX/UI designer. Feel free to
+                    send me a message.
+                </p>
+            </div>
+
+        </section>
+
+
+        <section class="contact-layout">
+
+            <div class="contact-info">
+
+                <div class="contact-info-card">
+                    <p class="contact-label">Email</p>
+
+                    <a href="sar.smith.816@gmail.com">
+                        sar.smith.816@gmail.com
+                    </a>
+                </div>
+
+                <div class="contact-info-card">
+                    <p class="contact-label">LinkedIn</p>
+
+                    <a
+                        href="www.linkedin.com/in/sar03578"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View my LinkedIn
+                    </a>
+                </div>
+
+                <div class="contact-info-card">
+                    <p class="contact-label">Location</p>
+
+                    <p>Chicago, Illinois</p>
+                </div>
+
+                <div class="contact-note">
+                    <h3>Currently seeking</h3>
+
+                    <p>
+                        UX/UI internships, design opportunities, and projects
+                        where I can contribute to thoughtful and accessible
+                        digital experiences.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <form class="contact-form" action="#" method="post">
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="yourname.gmail"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="What would you like to discuss?"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="7"
+                        placeholder="Write your message here..."
+                        required
+                    ></textarea>
+                </div>
+
+                <button class="contact-button" type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Sarah Smith. All rights reserved.</p>
+    </footer>
+
 </body>
+
 </html>
